@@ -8,7 +8,7 @@ function NavBar({title, itemUno, itemDos, itemTres, mostrarUno}) {
   return (
     <>
       <Navbar bg="dark" variant="dark">
-        <Container>
+        <Container className="container-fluid">
           <Navbar.Brand href="#home">{title}</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
@@ -18,9 +18,7 @@ function NavBar({title, itemUno, itemDos, itemTres, mostrarUno}) {
               <NavDropdown.Item href="#action/3.2">{itemDos}</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">{itemTres}</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#buy" className="justify-content-end">
             <Button mostrarUno={mostrarUno}/>
-            </Nav.Link>
           </Nav>
         </Container>
       </Navbar>

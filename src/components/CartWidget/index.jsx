@@ -2,7 +2,7 @@ import Button from 'react-bootstrap/Button';
 
 function CartWidget({mostrarUno}){
     return(
-    <Button onClick={mostrarUno}>🛒</Button>
+    <Button className="btn btn-primary btn-dark btn-sm" onClick={mostrarUno}>🛒</Button>
     )
 }
 

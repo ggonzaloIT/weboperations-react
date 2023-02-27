@@ -3,8 +3,8 @@ import Card from 'react-bootstrap/Card';
 
 function Item({name, id, img}){
 return(
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={img} />
+    <Card style={{ width: '18rem'}}>
+      <Card.Img variant="top" src={img} style={{width: '285px', height: '285px'}}/>
       <Card.Body>
         <Card.Title>{name}</Card.Title>
         <Card.Text>
