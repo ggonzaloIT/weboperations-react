@@ -14,7 +14,7 @@ function App() {
       <NavBar title="Web Operations" itemUno="Regulador" itemDos="CDI" itemTres="Relé" mostrarUno={mostrarUno}/>
     </div>
     <div>
-      <ItemListContainer articulos={productos}/>
+      <ItemListContainer greeting={"Hola mundo"}/>
     </div>
     </>
   );
